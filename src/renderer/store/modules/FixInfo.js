@@ -15,10 +15,7 @@ const actions = {
     const sbj = '&subject=' + state.subject
     const body = '&body=' + emailTpl(data)
 
-    return new Promise((resolve, reject) => {
-      window.location.href = 'mailto:' + to + cc + sbj + body
-      resolve()
-    })
+    window.location.href = 'mailto:' + to + cc + sbj + body
   }
 }
 

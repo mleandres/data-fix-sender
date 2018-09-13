@@ -113,8 +113,10 @@ export default {
   textarea {
     display: block;
     width: 50%;
+    min-width: 30%;
     max-width: 100%;
     height: 3.5em;
+    min-height: 2em;
     max-height: 10em;
     box-sizing: border-box;
   }
